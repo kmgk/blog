@@ -1,0 +1,3 @@
+[submodule "themes/potato-dark"]
+	path = themes/potato-dark
+	url = https://github.com/kmgk/potato-dark
