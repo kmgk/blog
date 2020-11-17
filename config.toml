@@ -1,5 +1,6 @@
 #Uncomment as needed
-#baseurl = "Your site URL"
+baseurl = "https://kmgk.dev"
+hasCJKLanguage = true
 languageCode = "jp"
 Title = "kmgk.dev"
 # Copyright notice. This is displayer in the footer.
