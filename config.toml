@@ -20,6 +20,8 @@ theme = "potato-dark"
   # Logo image. This is displayed ogp image.
   logo = "/path/to/logo"
   favicon = "/path/to/favicon"
+  author = "kmgk"
+  authorwebsite = "https://twitter.com/kmgk21444557"
 
 [[menu.main]]
     name = "Blog"
