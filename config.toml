@@ -16,7 +16,7 @@ theme = "potato-dark"
   # Disqus shortname
   disqus = ""
   # Google Analytics API key.
-  ga_api_key = "Your Google Analytics tracking id"
+  ga_api_key = "G-74TC56JTJK"
   # Logo image. This is displayed ogp image.
   logo = "/path/to/logo"
   favicon = "/path/to/favicon"
