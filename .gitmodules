@@ -1,3 +1,6 @@
 [submodule "themes/potato-dark"]
 	path = themes/potato-dark
 	url = https://github.com/kmgk/potato-dark
+[submodule "themes/github-style"]
+	path = themes/github-style
+	url = git@github.com:MeiK2333/github-style.git

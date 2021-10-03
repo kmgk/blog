@@ -1,59 +1,85 @@
-#Uncomment as needed
-baseurl = "https://kmgk.dev"
-hasCJKLanguage = true
+### ------------------------------------------------------------
+### github-style
+### ------------------------------------------------------------
+baseurl = "https://kmgk.dev/"
 languageCode = "jp"
-Title = "kmgk.dev"
-# Copyright notice. This is displayer in the footer.
-copyright = "&copy; kmgk 2020-"
-theme = "potato-dark"
+title = "kmgk.dev"
+googleAnalytics = "G-74TC56JTJK"
+theme = "github-style"
 
 [params]
-  paginate = 10
-  # Social accounts. Link to these accounts are displayed in the header and
-  # footer
-  twitter = "kmgk21444557"
-  github = "kmgk"
-  # Disqus shortname
-  disqus = ""
-  # Google Analytics API key.
-  ga_api_key = "G-74TC56JTJK"
-  # Logo image. This is displayed ogp image.
-  logo = "/path/to/logo"
-  favicon = "/path/to/favicon"
   author = "kmgk"
-  authorwebsite = "https://twitter.com/kmgk21444557"
+  description = "主にwebアプリケーション開発に関して勉強したことを記録するブログです"
+  github = "kmgk"
+  twitter = "kmgk21444557"
+  url = "https://kmgk.dev"
+  rss = true
+  lastmod = true
+  userStatusEmoji = "🍣"
+  favicon = "/images/maguro.png"
+  avatar = "/images/maguro.png"
+  location = "Japan"
 
-[[menu.main]]
-    name = "Blog"
-    url = "/"
-    weight = 1
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
 
-[[menu.main]]
-    name = "About"
-    url = "/about"
-    weight = 2
+### ------------------------------------------------------------
+### potato-dark
+### ------------------------------------------------------------
+# baseurl = "https://kmgk.dev"
+# hasCJKLanguage = true
+# languageCode = "jp"
+# Title = "kmgk.dev"
+# copyright = "&copy; kmgk 2020-"
+# theme = "potato-dark"
 
-[related]
-  # Only include matches with rank >= threshold. This is a normalized rank between 0 and 100.
-  threshold = 80
+# [params]
+#   paginate = 10
+#   # Social accounts. Link to these accounts are displayed in the header and
+#   # footer
+#   twitter = "kmgk21444557"
+#   github = "kmgk"
+#   # Disqus shortname
+#   disqus = ""
+#   # Google Analytics API key.
+#   ga_api_key = "G-74TC56JTJK"
+#   # Logo image. This is displayed ogp image.
+#   logo = "/path/to/logo"
+#   favicon = "/path/to/favicon"
+#   author = "kmgk"
+#   authorwebsite = "https://twitter.com/kmgk21444557"
 
-  # To get stable "See also" sections we, by default, exclude newer related pages.
-  includeNewer = false
+# [[menu.main]]
+#     name = "Blog"
+#     url = "/"
+#     weight = 1
 
-  # Will lower case keywords in both queries and in the indexes.
-  toLower = false
+# [[menu.main]]
+#     name = "About"
+#     url = "/about"
+#     weight = 2
 
-  [[related.indices]]
-  name = "keywords"
-  weight = 150
-  [[related.indices]]
-  name  = "author"
-  toLower = true
-  weight = 30
-  [[related.indices]]
-  name  = "tags"
-  weight = 100
-  [[related.indices]]
-  name  = "date"
-  weight = 10
-  pattern = "2017"
+# [related]
+#   # Only include matches with rank >= threshold. This is a normalized rank between 0 and 100.
+#   threshold = 80
+
+#   # To get stable "See also" sections we, by default, exclude newer related pages.
+#   includeNewer = false
+
+#   # Will lower case keywords in both queries and in the indexes.
+#   toLower = false
+
+#   [[related.indices]]
+#   name = "keywords"
+#   weight = 150
+#   [[related.indices]]
+#   name  = "author"
+#   toLower = true
+#   weight = 30
+#   [[related.indices]]
+#   name  = "tags"
+#   weight = 100
+#   [[related.indices]]
+#   name  = "date"
+#   weight = 10
+#   pattern = "2017"

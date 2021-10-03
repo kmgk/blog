@@ -3,6 +3,7 @@ title: 'Next.jsにtailwindcss v2.0を導入する'
 date: 2020-11-21T22:05:11+09:00
 draft: false
 tags: ['next.js', 'tailwindcss']
+summary: "next.js に tailwindcss v2.0 を導入したので備忘録として"
 ---
 
 next.js に tailwindcss v2.0 を導入したので備忘録として導入方法を書き残します。前に v1.x を導入したときと手順が若干違った。
