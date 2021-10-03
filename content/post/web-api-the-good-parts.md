@@ -1,7 +1,7 @@
 ---
 title: "Web API: The Good Parts"
 date: 2021-10-03T18:39:28+09:00
-draft: true
+draft: false
 tags: ['技術書']
 summary: "Web API: The Good Partsを読んだ"
 ---
