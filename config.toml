@@ -1,9 +1,9 @@
 ### ------------------------------------------------------------
 ### github-style
 ### ------------------------------------------------------------
-baseurl = "https://kmgk.dev/"
+baseurl = "https://blog.kmgk.site/"
 languageCode = "jp"
-title = "kmgk.dev"
+title = "kmgk's blog"
 googleAnalytics = "G-74TC56JTJK"
 theme = "github-style"
 
@@ -12,7 +12,7 @@ theme = "github-style"
   description = "お寿司はそこそこ好きです"
   github = "kmgk"
   twitter = "kmgk21444557"
-  url = "https://kmgk.dev"
+  url = "https://blog.kmgk.site"
   rss = true
   lastmod = true
   userStatusEmoji = "🍣"
